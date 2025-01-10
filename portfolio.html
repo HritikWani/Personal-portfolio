@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PORTFOLIO</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/eb1bd6bd5b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <div class="container">
+                    <nav>
+                        <a href="https://linkedin.com/" class="logo"><i class="fab fa-linkedin "></i></a>
+                        <a href="https://instagram.com/" class="logo"><i class="fab fa-instagram "></i></a>
+                        <ul>
+                            <li> <a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#domains">Applications</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-text">
+                        <h1>Hi, it's <span>Hritik</span></h1>
+                        <h3 class="typing-text">I'm a <span>developer</span></h3>
+                    </div>
+                    <div class="hobby">
+                        <p class="like">I like:</p>
+                        <ul>
+                            <li><p>Reading, Composing and Authoring <br><span>Poems, Songs, Stories and Taglines</span></p> </li>
+                            <li><p>Playing Board Games</p></li>
+                            <li><p>Video and Photo Editing</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+         </header>
+        <!-- ---------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/1670066669713.jpg" alt="img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Currently persuing my third year of engineering, I am trying to apply my skills for valuable projects.<br> I am an active content writer, and believe in my own quotes.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"  onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('Projects')"> Projects</p>
+                        <p class="tab-links" onclick="opentab('Education')"> Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="Skills">
+                        <ul>
+                            <li>
+                                <span>UI/UX</span><br>Designing Web/App interfaces
+                            </li>
+                            <li>
+                                <span>Web Development</span><br>Web/App Development
+                            </li>
+                            <li>
+                                <span>App Development</span><br>Building IOS/Android apps
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li>
+                                <span>Bank Management System</span><br>BMS is app based project.<br><span class="lang"><ul><li>Java</li><li>MySql</li></ul></span>
+                            </li>
+                            <li>
+                                <span>Tour Destination Planner</span><br>This application based project, made for second year java project consisted various tourist places across India.<br><span class="lang"><ul><li>Java</li><li>MySql</li></ul></span>
+                            </li>
+                            <li>
+                                <span>AI Chatbot For Desease Prediction</span><br>This is Web based third year project. It takes syntoms as input and gives a predicted desease.<br><span class="lang"><ul><li>HTML</li><li>CSS</li><li>MongoDB</li><li>Python</li></ul></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li>
+                                <span>Engineering</span><br>MCT's RGIT Mumbai<br>2022-2026
+                            </li>
+                            <li>
+                                <span>12th HSC</span><br>MJ College, Jalgaon<br>2020-2022
+                            </li>
+                            <li>
+                                <span>10th CBSE</span><br>St. Joseph's Convent Sr. Sec. School<br>2020
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- -------------domains------------- -->
+    <div id="domains">
+        <div class="container">
+            <h1 class="sub-title">Domain's</h1>
+            <div class="domains-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Projects like calculator made using HTML, CSS and JS using attractive web designs. Having proper funtionality and working.</p>
+                    <a href="#"> Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Made a portfolio website that has an attractive and responsive UI/UX design.</p>
+                    <a href="#"> Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Desktop application like 'Bank management sytem' in java, with perfect validations and SQL for backend.</p>
+                    <a href="#"> Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/calc.png" alt="calculator">
+                    <div class="layer">
+                        <h3>Calculator project</h3>
+                        <p>This is a web based calculator made using HTML, CSS and JS.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    
+    <!-- ------------contact-------------- -->
+    <div id="contact">
+        <div class="container ">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> example@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 1234567898</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Hritik. THANK YOU <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links")
+        var tabcontents= document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    </body>
+</html>
